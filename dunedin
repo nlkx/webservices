@@ -1,0 +1,48 @@
+nicollelim@Nicolles-MacBook-Air ~ % curl -X GET "http://api.openweathermap.org/data/2.5/weather?q=Dunedin&units=metric&appid=a62ddf2e8e5c303c2dcd7f8db4bb111e" | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   481  100   481    0     0   1264      0 --:--:-- --:--:-- --:--:--  1265
+{
+  "coord": {
+    "lon": 170.5036,
+    "lat": -45.8742
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 8.78,
+    "feels_like": 6.49,
+    "temp_min": 8.78,
+    "temp_max": 8.78,
+    "pressure": 1022,
+    "humidity": 96
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4.02,
+    "deg": 28,
+    "gust": 9.83
+  },
+  "clouds": {
+    "all": 79
+  },
+  "dt": 1718882394,
+  "sys": {
+    "type": 2,
+    "id": 75281,
+    "country": "NZ",
+    "sunrise": 1718828395,
+    "sunset": 1718859546
+  },
+  "timezone": 43200,
+  "id": 2191562,
+  "name": "Dunedin",
+  "cod": 200
+}
